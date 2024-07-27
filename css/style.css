@@ -1,4 +1,25 @@
 footer {
-    text-align: left;
-    
+    text-align: center;
+    background-color: #71b97f;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+
 }
+:root {
+    --corPrimaria: #71b97f;
+    --corSecundaria: #fff;
+    --corTerciaria: #000;
+}
+header {
+    background-color: var(--corPrimaria);
+    color: var(--corSecundaria);
+}
+footer a{
+    align-items: center;
+    color: var(--corSecundaria);
+}
+
+
+
+
