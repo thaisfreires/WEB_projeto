@@ -1,4 +1,3 @@
-const carousel = new bootstrap.Carousel('#myCarousel')
 const toastTrigger = document.getElementById('liveToastBtn')
 const toastLiveExample = document.getElementById('liveToast')
 

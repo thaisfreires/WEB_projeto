@@ -3,36 +3,51 @@
     --corSecundaria: rgb(245, 241, 227);
     --corTerciaria: #9c6644;
     text-size-adjust: 100%;
-    background-color: #d7e6b6;
 
 }
 header {
      background-color: var(--corPrimaria);
-    font-size: 20px;
-
 }
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-nav .nav-link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container {
+    max-width: 300vw;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.imageBG {
+    object-fit: cover;
+    max-height: 80vh;
+    max-width: 300vw;
+
+}  
+.logo img{
+    position: center;
+} 
+
 header a{
     color: var(--corTerciaria);
 }
-.carousel-item img{
-   max-width: 100%;
-    height: auto; 
-}
-body{
-    background-color: beige;
-}
+
 footer {
-    text-align: center;
     background-color: #d7e6b6;
     text-decoration-color: var(--corTerciaria);
     padding: 10px;
-    font-size: 20px;
-
 }
 footer a{
     color: var(--corTerciaria);
     opacity: 80%;
-}
-footer p{
-    color: var(--corTerciaria);
 }
