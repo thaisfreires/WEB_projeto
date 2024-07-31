@@ -7,6 +7,7 @@
 }
 header {
     background-color: var(--corTerciaria);
+    font-size: x-large;
 }
 
 .navbar-nav .nav-link {
@@ -34,6 +35,10 @@ h1 {
 h2{
     font-family: 'Quicksand', sans-serif;
 }
+h3{
+    font-family: 'Quicksand', sans-serif;
+
+}
 
 header a{
     color: var(--corTerciaria);
@@ -45,6 +50,8 @@ footer {
     padding: 10px;
 }
 footer a{
+    justify-content: center;
+    font-size: x-large;
     color: var(--corSecundaria);
     opacity: 100%;
 }
