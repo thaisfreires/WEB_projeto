@@ -7,6 +7,8 @@
     <title>Travel Blog</title>
     <!-- MEU CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/file.png" type="image/x-icon" width="150">
 
     <!-- MINHA FONTE GOOGLE-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,116 +27,111 @@
 
 <body>
     <!--NAV BAR-->
-    <header class="text-center p-3 sticky-top">
-        <nav class="navbar navbar-expand-lg minha navbar">
+    <header class="text-center p-3">
+
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img src="/img/file.png" alt="minha-logo" width="100">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>                   
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="aboutme.html">Sobre Mim</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contato.html">Contato</a>
-                        </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="destinations.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Destinatinos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Asia</a></li>
-                                <li><a class="dropdown-item" href="#">Africa</a></li>
-                                <li><a class="dropdown-item" href="#">Australia</a></li>
-                                <li><a class="dropdown-item" href="#">Europe</a></li>
-                                <li><a class="dropdown-item" href="#">America</a></li>
-                            </ul>
+                <!--NAVEGAÇÃO-->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="aboutme.html">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="destinations.html">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="contato.html">Contato</a>
                         </li>
                     </ul>
-                </div>
-            </div>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn-primary" type="submit"> Pesquisar </button>
-            </form>
-        </nav>
-        </nav>
-
+                        <!--PESQUISAR-->
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                            <button class="btn btn-outline-success" type="submit"> Pesquisar </button>
+                        </form>
+                </div>  
+            </div>  
+        </nav>        
     </header>
-    <main>
 
-        <!--CONTEUDO-->
-        <!-- Gallery -->
+<!-- Gallery -->
+ 
+    <main class="container md-5 p-5 shadow rounded">
+        <div class="text-center"></div>
+        <br>
+        <h1><mark>Quem sou eu?</mark></h1>
+        <br><br>
         <div class="row">
             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                <img src="/img/aviao.jpg" class="w-100 shadow-1-strong rounded mb-0" alt="Aviao" />
+                <img src="/img/aviao.jpg" class="w-100 rounded mb-4" alt="Aviao" />
                 
-                <img src="/img/emirates.jpeg" class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Wintry Mountain Landscape" />
+                <img src="/img/dubai.jpg" class="w-100 rounded mb-4"
+                    alt="Dubai" />
             </div>
 
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="/img/sydney.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
 
-                <img src="/img/japao.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                <h5 class="w-100 rounded mb-4" alt="quem-sou-eu"><h2>Olá, meu nome é Thais e eu sempre quis viajar o mundo.</h2>
+                    <br><br><br><br><br>
+                <img src="/img/japao.jpg" class="w-100 rounded mb-4" alt="Japão" />
+                <h5 class="w-100 rounded mb-4" alt="quem-sou-eu"><h2>Morei nos Estados Unidos, na Belgica e em Dubai, onde me tornei comissária de bordo</h2>
             </div>
 
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="/img/korea.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+                <img src="/img/emirates.jpeg" class="w-100 rounded mb-4" alt="Emirates comissária" />
 
-                <img src="/img/emirates.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+                <img src="/img/sydney.jpg" class="w-100 mb-4 rounded" alt="Sydney" />
             </div>
         </div>
-        <!-- Gallery -->
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="/img/aviao.jpg" class="w-100 rounded mb-4" alt="Aviao" />
+                
+                <img src="/img/dubai.jpg" class="w-100 rounded mb-4"
+                    alt="" />
+            </div>
 
-        <div class="container">
-            <<div class="row">
-                <div class="col text-center">
-                    <h1 class="pb-4 mb-4 fst-italic border-bottom">
-                        Sobre mim
-                    </h1>
-                    <div class="container mb-5 p-5 shadow rounded">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <br><br><br><br>
+                <img src="/img/japao.jpg" class="w-100 rounded mb-4" alt="" />
+                <br><br><br><br>
+                <h5 class="w-100 rounded mb-4" alt="quem-sou-eu"><h2>Conheço 48 países e essas são algumas das minhas boas memórias.</h2>
+                    <br>
+            </div>
 
-                        <img class="img-thumbnail" src="/img/emirates.jpeg" alt="">
-                        <img src="/img/aviao.jpg" class="img-thumbnail rounded float-start" alt="...">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="/img/emirates.jpeg" class="w-100 rounded mb-4" alt="" />
 
-
-                        <h1>Vivendo culturas pelo mundo</h1>
-
-                        <p>
-                            Sou brasileira e sempre tive vontade de <mark>conhecer o mundo.</mark> Comecei fazendo
-                            intercâmbio, depois fui comissária de bordo e hoje conheco <mark>48</mark> países! Me
-                            orgulho de ter chegado tão longe e conhecido lugares que eu nunca imaginei. Esse blog é um
-                            cantinho de boas memórias. <br>
-                    </div>
-                </div>
-
+                <img src="/img/bangladesh.jpg" class="w-100 mb-4 rounded" alt="" />
+            </div>
         </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <!-- MEU JS -->
-    <script src="js/main.js"></script>
+
 </body>
 <!--FOOTER-->
 <footer>
-    <div class="container-fluid">
-        <div class="logo p-3 text-start">
-            <img src="/img/file.png" alt="minha-logo" width="200">
+    <div class="container-fluid p-5 sticky-bottom">
+        <div "row">
+        <div class="col-12 col-md-6 text-end">
             <a href="https://www.instagram.com/thafreires/" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/thais-freire-b654871bb/" target="_blank"><i
-                    class="bi bi-linkedin"></i></a>
+            <a href="https://www.twitter.com/thaiisfreire/" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.pinterest.com/thaiisfreire/" target="_blank"><i class="bi bi-pinterest"></i></a>
+            <a href="https://www.linkedin.com/in/thais-freire-b654871bb/" target="_blank"><i class="bi bi-linkedin"></i></a>
         </div>
     </div>
 </footer>
 
+<!-- MEU JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </html>
