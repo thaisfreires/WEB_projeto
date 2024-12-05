@@ -7,27 +7,20 @@
 }
 header {
     background-color: var(--corTerciaria);
-    font-size: x-large;
+    font-size:large;
 }
+
 
 .navbar-nav .nav-link {
     color: var(--corSecundaria);
 }
 
 .container-fluid img{
-    width: 90px;
+    width: 70px;
     height: auto;
     align-items: flex-start;
-    font-size: 40px;
-    
 }
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: justify;
-} 
+
 
 h1 {
     font-family: 'Quicksand', sans-serif;
@@ -48,9 +41,10 @@ footer {
     background-color: var(--corTerciaria);
     text-decoration-color: var(--corTerciaria);
     padding: 10px;
+    
 }
 footer a{
-    justify-content: center;
+    
     font-size: x-large;
     color: var(--corSecundaria);
     opacity: 100%;
