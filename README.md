@@ -1,15 +1,19 @@
-# Boarding Pass Journeys
+# 🛫 Boarding Pass Journeys
 
-Bem-vindo ao **Boarding Pass Journeys**, um blog de viagens que explora as aventuras de uma ex-comissária de bordo por 48 países. Este projeto foi construído utilizando HTML, CSS e Bootstrap para criar um site responsivo e visualmente atraente.
+Welcome to **Boarding Pass Journeys**, a simple project showcasing 3 pages highlighting the adventures of a former flight attendant across 48 countries. This project was built exclusively with **HTML**, **CSS**, and **Bootstrap**.
 
-## Funcionalidades
+## ✨ Features
 
-- **Design Responsivo**: Garante que o site fique ótimo em todos os dispositivos.
-- **Carrossel Bootstrap**: Exibe uma galeria rotativa de fotos de viagem.
-- **Navbar Bootstrap**: Fornece navegação fácil por todo o site.
+- 📱 **Responsive Design**: Pages adapt seamlessly to different devices and screen sizes.
+- 🖼️ **Bootstrap Carousel**: A rotating gallery to showcase travel memories.
+- 🧭 **Bootstrap Navbar**: Intuitive navigation across the pages.
 
-## Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-- **HTML**: Estrutura do site.
-- **CSS**: Estilos personalizados para melhorar a aparência do site.
-- **Bootstrap**: Utilizado para design responsivo e componentes pré-construídos como Carrossel e Navbar.
+- **HTML**: To structure the pages.
+- **CSS**: To add custom styles and enhance the look.
+- **Bootstrap**: Used for creating responsive layouts and implementing ready-made components like the Carousel and Navbar.
+
+---
+
+🚀 Explore this simple project and see how **HTML, CSS, and Bootstrap** can create an elegant visual experience with minimal effort.
